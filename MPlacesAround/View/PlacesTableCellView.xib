@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="i9c-s2-OIl" customClass="PlacesTableCellView">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="78"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rZR-Vw-uBe" customClass="PVAsyncImageView">
+                    <rect key="frame" x="15" y="10" width="60" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="u6R-aq-smx"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" id="y0h-HP-yEL"/>
+                </imageView>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ja1-Vu-tEq">
+                    <rect key="frame" x="76" y="31" width="292" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" state="on" alignment="center" title="Address of a place will be here" id="6nS-CE-ocJ">
+                        <font key="font" metaFont="system" size="12"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sUP-VZ-ZQ1">
+                    <rect key="frame" x="76" y="5" width="292" height="16"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="Coordinates of a place will be here" id="8cW-0z-B9U">
+                        <font key="font" metaFont="system" size="12"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NTE-kl-l4d">
+                    <rect key="frame" x="76" y="57" width="292" height="18"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="center" title="Name of a place will be here" id="7ae-Ju-hJC">
+                        <font key="font" metaFont="system" size="14"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ja1-Vu-tEq" secondAttribute="trailing" constant="2" id="7pn-LF-IsE"/>
+                <constraint firstItem="NTE-kl-l4d" firstAttribute="leading" secondItem="rZR-Vw-uBe" secondAttribute="trailing" constant="3" id="Mzs-4M-ioD"/>
+                <constraint firstItem="sUP-VZ-ZQ1" firstAttribute="top" secondItem="ja1-Vu-tEq" secondAttribute="bottom" constant="10" id="UNW-Kr-goJ"/>
+                <constraint firstAttribute="trailing" secondItem="NTE-kl-l4d" secondAttribute="trailing" constant="2" id="YhY-ev-ujA"/>
+                <constraint firstAttribute="bottom" secondItem="sUP-VZ-ZQ1" secondAttribute="bottom" constant="5" id="ais-4j-te5"/>
+                <constraint firstItem="sUP-VZ-ZQ1" firstAttribute="leading" secondItem="rZR-Vw-uBe" secondAttribute="trailing" constant="3" id="cfm-Mo-YGX"/>
+                <constraint firstItem="rZR-Vw-uBe" firstAttribute="leading" secondItem="i9c-s2-OIl" secondAttribute="leading" constant="15" id="cwl-cF-WIc"/>
+                <constraint firstAttribute="trailing" secondItem="sUP-VZ-ZQ1" secondAttribute="trailing" constant="2" id="iH5-Cz-bbL"/>
+                <constraint firstItem="NTE-kl-l4d" firstAttribute="top" secondItem="i9c-s2-OIl" secondAttribute="top" constant="3" id="rvP-Q9-JW3"/>
+                <constraint firstItem="ja1-Vu-tEq" firstAttribute="leading" secondItem="rZR-Vw-uBe" secondAttribute="trailing" constant="3" id="tft-Aa-oni"/>
+                <constraint firstItem="ja1-Vu-tEq" firstAttribute="top" secondItem="NTE-kl-l4d" secondAttribute="bottom" constant="10" id="vq6-Ax-UgN"/>
+                <constraint firstAttribute="bottom" secondItem="rZR-Vw-uBe" secondAttribute="bottom" constant="10" id="xyr-8S-R0u"/>
+                <constraint firstItem="rZR-Vw-uBe" firstAttribute="top" secondItem="i9c-s2-OIl" secondAttribute="top" constant="10" id="yhK-Mq-8cO"/>
+            </constraints>
+            <accessibility identifier="PlacesTableCellView"/>
+            <connections>
+                <outlet property="addressTextField" destination="ja1-Vu-tEq" id="vQb-O5-JdD"/>
+                <outlet property="coordinatesTextField" destination="sUP-VZ-ZQ1" id="9Y6-rS-A5t"/>
+                <outlet property="iconImageView" destination="rZR-Vw-uBe" id="aUA-gb-AV6"/>
+                <outlet property="nameTextField" destination="NTE-kl-l4d" id="1tR-hQ-WBU"/>
+                <outlet property="textField" destination="NTE-kl-l4d" id="9g2-T2-leO"/>
+            </connections>
+            <point key="canvasLocation" x="163" y="-28.5"/>
+        </tableCellView>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+    </resources>
+</document>

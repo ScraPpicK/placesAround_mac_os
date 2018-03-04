@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDABF40A204BD43000876D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF409204BD43000876D08 /* AppDelegate.m */; };
+		DDABF40F204BD43000876D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDABF40E204BD43000876D08 /* Assets.xcassets */; };
+		DDABF412204BD43000876D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDABF410204BD43000876D08 /* Main.storyboard */; };
+		DDABF415204BD43000876D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF414204BD43000876D08 /* main.m */; };
+		DDABF420204BD43000876D08 /* MPlacesAroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF41F204BD43000876D08 /* MPlacesAroundTests.m */; };
+		DDABF42B204BD43000876D08 /* MPlacesAroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF42A204BD43000876D08 /* MPlacesAroundUITests.m */; };
+		DDABF43E204BD85900876D08 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF43C204BD85900876D08 /* MainViewController.m */; };
+		DDABF443204BD8DE00876D08 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF442204BD8DE00876D08 /* DownloadManager.m */; };
+		DDABF446204BD8EE00876D08 /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF445204BD8EE00876D08 /* NSString_stripHtml.m */; };
+		DDABF449204BD8FB00876D08 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF447204BD8FB00876D08 /* Place.m */; };
+		DDABF44C204BD91E00876D08 /* PlacesTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF44B204BD91E00876D08 /* PlacesTableCellView.m */; };
+		DDABF44E204BD93800876D08 /* PlacesTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDABF44D204BD93800876D08 /* PlacesTableCellView.xib */; };
+		DDABF451204BDCA400876D08 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF450204BDCA400876D08 /* CustomWindow.m */; };
+		DDABF468204BE75B00876D08 /* PVAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF466204BE75B00876D08 /* PVAsyncImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDABF41C204BD43000876D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDABF3FD204BD43000876D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDABF404204BD43000876D08;
+			remoteInfo = MPlacesAround;
+		};
+		DDABF427204BD43000876D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDABF3FD204BD43000876D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDABF404204BD43000876D08;
+			remoteInfo = MPlacesAround;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDABF405204BD43000876D08 /* MPlacesAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPlacesAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDABF408204BD43000876D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDABF409204BD43000876D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDABF40E204BD43000876D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDABF411204BD43000876D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDABF413204BD43000876D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDABF414204BD43000876D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDABF416204BD43000876D08 /* MPlacesAround.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MPlacesAround.entitlements; sourceTree = "<group>"; };
+		DDABF41B204BD43000876D08 /* MPlacesAroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPlacesAroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDABF41F204BD43000876D08 /* MPlacesAroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPlacesAroundTests.m; sourceTree = "<group>"; };
+		DDABF421204BD43000876D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDABF426204BD43000876D08 /* MPlacesAroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPlacesAroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDABF42A204BD43000876D08 /* MPlacesAroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPlacesAroundUITests.m; sourceTree = "<group>"; };
+		DDABF42C204BD43000876D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDABF43B204BD85900876D08 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DDABF43C204BD85900876D08 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DDABF441204BD8DE00876D08 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = ../../../PlacesAround/PlacesAround/Helper/DownloadManager.h; sourceTree = "<group>"; };
+		DDABF442204BD8DE00876D08 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = ../../../PlacesAround/PlacesAround/Helper/DownloadManager.m; sourceTree = "<group>"; };
+		DDABF444204BD8EE00876D08 /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString_stripHtml.h; path = "../../../1202238-a4df58fde4161e9507df69e85745dc53b0e8dac6/NSString_stripHtml.h"; sourceTree = "<group>"; };
+		DDABF445204BD8EE00876D08 /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString_stripHtml.m; path = "../../../1202238-a4df58fde4161e9507df69e85745dc53b0e8dac6/NSString_stripHtml.m"; sourceTree = "<group>"; };
+		DDABF447204BD8FB00876D08 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = ../../../PlacesAround/PlacesAround/Model/Place.m; sourceTree = "<group>"; };
+		DDABF448204BD8FB00876D08 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = ../../../PlacesAround/PlacesAround/Model/Place.h; sourceTree = "<group>"; };
+		DDABF44A204BD91E00876D08 /* PlacesTableCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesTableCellView.h; sourceTree = "<group>"; };
+		DDABF44B204BD91E00876D08 /* PlacesTableCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableCellView.m; sourceTree = "<group>"; };
+		DDABF44D204BD93800876D08 /* PlacesTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacesTableCellView.xib; sourceTree = "<group>"; };
+		DDABF44F204BDCA400876D08 /* CustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
+		DDABF450204BDCA400876D08 /* CustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
+		DDABF466204BE75B00876D08 /* PVAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVAsyncImageView.m; path = "../../../PVAsyncImageView-master/PVAsyncImageView/PVAsyncImageView.m"; sourceTree = "<group>"; };
+		DDABF467204BE75B00876D08 /* PVAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVAsyncImageView.h; path = "../../../PVAsyncImageView-master/PVAsyncImageView/PVAsyncImageView.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDABF402204BD43000876D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDABF418204BD43000876D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDABF423204BD43000876D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDABF3FC204BD43000876D08 = {
+			isa = PBXGroup;
+			children = (
+				DDABF407204BD43000876D08 /* MPlacesAround */,
+				DDABF41E204BD43000876D08 /* MPlacesAroundTests */,
+				DDABF429204BD43000876D08 /* MPlacesAroundUITests */,
+				DDABF406204BD43000876D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDABF406204BD43000876D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF405204BD43000876D08 /* MPlacesAround.app */,
+				DDABF41B204BD43000876D08 /* MPlacesAroundTests.xctest */,
+				DDABF426204BD43000876D08 /* MPlacesAroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDABF407204BD43000876D08 /* MPlacesAround */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF440204BD8D000876D08 /* Helper */,
+				DDABF43A204BD80D00876D08 /* Controller */,
+				DDABF439204BD80500876D08 /* View */,
+				DDABF438204BD80000876D08 /* Model */,
+				DDABF408204BD43000876D08 /* AppDelegate.h */,
+				DDABF409204BD43000876D08 /* AppDelegate.m */,
+				DDABF40E204BD43000876D08 /* Assets.xcassets */,
+				DDABF410204BD43000876D08 /* Main.storyboard */,
+				DDABF413204BD43000876D08 /* Info.plist */,
+				DDABF414204BD43000876D08 /* main.m */,
+				DDABF416204BD43000876D08 /* MPlacesAround.entitlements */,
+			);
+			path = MPlacesAround;
+			sourceTree = "<group>";
+		};
+		DDABF41E204BD43000876D08 /* MPlacesAroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF41F204BD43000876D08 /* MPlacesAroundTests.m */,
+				DDABF421204BD43000876D08 /* Info.plist */,
+			);
+			path = MPlacesAroundTests;
+			sourceTree = "<group>";
+		};
+		DDABF429204BD43000876D08 /* MPlacesAroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF42A204BD43000876D08 /* MPlacesAroundUITests.m */,
+				DDABF42C204BD43000876D08 /* Info.plist */,
+			);
+			path = MPlacesAroundUITests;
+			sourceTree = "<group>";
+		};
+		DDABF438204BD80000876D08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF448204BD8FB00876D08 /* Place.h */,
+				DDABF447204BD8FB00876D08 /* Place.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDABF439204BD80500876D08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF44A204BD91E00876D08 /* PlacesTableCellView.h */,
+				DDABF44B204BD91E00876D08 /* PlacesTableCellView.m */,
+				DDABF44D204BD93800876D08 /* PlacesTableCellView.xib */,
+				DDABF44F204BDCA400876D08 /* CustomWindow.h */,
+				DDABF450204BDCA400876D08 /* CustomWindow.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDABF43A204BD80D00876D08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF43B204BD85900876D08 /* MainViewController.h */,
+				DDABF43C204BD85900876D08 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDABF440204BD8D000876D08 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DDABF467204BE75B00876D08 /* PVAsyncImageView.h */,
+				DDABF466204BE75B00876D08 /* PVAsyncImageView.m */,
+				DDABF444204BD8EE00876D08 /* NSString_stripHtml.h */,
+				DDABF445204BD8EE00876D08 /* NSString_stripHtml.m */,
+				DDABF441204BD8DE00876D08 /* DownloadManager.h */,
+				DDABF442204BD8DE00876D08 /* DownloadManager.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDABF404204BD43000876D08 /* MPlacesAround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDABF42F204BD43000876D08 /* Build configuration list for PBXNativeTarget "MPlacesAround" */;
+			buildPhases = (
+				DDABF401204BD43000876D08 /* Sources */,
+				DDABF402204BD43000876D08 /* Frameworks */,
+				DDABF403204BD43000876D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPlacesAround;
+			productName = MPlacesAround;
+			productReference = DDABF405204BD43000876D08 /* MPlacesAround.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDABF41A204BD43000876D08 /* MPlacesAroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDABF432204BD43000876D08 /* Build configuration list for PBXNativeTarget "MPlacesAroundTests" */;
+			buildPhases = (
+				DDABF417204BD43000876D08 /* Sources */,
+				DDABF418204BD43000876D08 /* Frameworks */,
+				DDABF419204BD43000876D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDABF41D204BD43000876D08 /* PBXTargetDependency */,
+			);
+			name = MPlacesAroundTests;
+			productName = MPlacesAroundTests;
+			productReference = DDABF41B204BD43000876D08 /* MPlacesAroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDABF425204BD43000876D08 /* MPlacesAroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDABF435204BD43000876D08 /* Build configuration list for PBXNativeTarget "MPlacesAroundUITests" */;
+			buildPhases = (
+				DDABF422204BD43000876D08 /* Sources */,
+				DDABF423204BD43000876D08 /* Frameworks */,
+				DDABF424204BD43000876D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDABF428204BD43000876D08 /* PBXTargetDependency */,
+			);
+			name = MPlacesAroundUITests;
+			productName = MPlacesAroundUITests;
+			productReference = DDABF426204BD43000876D08 /* MPlacesAroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDABF3FD204BD43000876D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Patalakh Vadim";
+				TargetAttributes = {
+					DDABF404204BD43000876D08 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					DDABF41A204BD43000876D08 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDABF404204BD43000876D08;
+					};
+					DDABF425204BD43000876D08 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDABF404204BD43000876D08;
+					};
+				};
+			};
+			buildConfigurationList = DDABF400204BD43000876D08 /* Build configuration list for PBXProject "MPlacesAround" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDABF3FC204BD43000876D08;
+			productRefGroup = DDABF406204BD43000876D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDABF404204BD43000876D08 /* MPlacesAround */,
+				DDABF41A204BD43000876D08 /* MPlacesAroundTests */,
+				DDABF425204BD43000876D08 /* MPlacesAroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDABF403204BD43000876D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDABF44E204BD93800876D08 /* PlacesTableCellView.xib in Resources */,
+				DDABF40F204BD43000876D08 /* Assets.xcassets in Resources */,
+				DDABF412204BD43000876D08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDABF419204BD43000876D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDABF424204BD43000876D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDABF401204BD43000876D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDABF415204BD43000876D08 /* main.m in Sources */,
+				DDABF43E204BD85900876D08 /* MainViewController.m in Sources */,
+				DDABF40A204BD43000876D08 /* AppDelegate.m in Sources */,
+				DDABF449204BD8FB00876D08 /* Place.m in Sources */,
+				DDABF468204BE75B00876D08 /* PVAsyncImageView.m in Sources */,
+				DDABF451204BDCA400876D08 /* CustomWindow.m in Sources */,
+				DDABF443204BD8DE00876D08 /* DownloadManager.m in Sources */,
+				DDABF44C204BD91E00876D08 /* PlacesTableCellView.m in Sources */,
+				DDABF446204BD8EE00876D08 /* NSString_stripHtml.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDABF417204BD43000876D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDABF420204BD43000876D08 /* MPlacesAroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDABF422204BD43000876D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDABF42B204BD43000876D08 /* MPlacesAroundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDABF41D204BD43000876D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDABF404204BD43000876D08 /* MPlacesAround */;
+			targetProxy = DDABF41C204BD43000876D08 /* PBXContainerItemProxy */;
+		};
+		DDABF428204BD43000876D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDABF404204BD43000876D08 /* MPlacesAround */;
+			targetProxy = DDABF427204BD43000876D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDABF410204BD43000876D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDABF411204BD43000876D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDABF42D204BD43000876D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDABF42E204BD43000876D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDABF430204BD43000876D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MPlacesAround/MPlacesAround.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6C5FM2FT54;
+				INFOPLIST_FILE = MPlacesAround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.patalakh.MPlacesAround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDABF431204BD43000876D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MPlacesAround/MPlacesAround.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6C5FM2FT54;
+				INFOPLIST_FILE = MPlacesAround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.patalakh.MPlacesAround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDABF433204BD43000876D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6C5FM2FT54;
+				INFOPLIST_FILE = MPlacesAroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.patalakh.MPlacesAroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPlacesAround.app/Contents/MacOS/MPlacesAround";
+			};
+			name = Debug;
+		};
+		DDABF434204BD43000876D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6C5FM2FT54;
+				INFOPLIST_FILE = MPlacesAroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.patalakh.MPlacesAroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPlacesAround.app/Contents/MacOS/MPlacesAround";
+			};
+			name = Release;
+		};
+		DDABF436204BD43000876D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6C5FM2FT54;
+				INFOPLIST_FILE = MPlacesAroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.patalakh.MPlacesAroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MPlacesAround;
+			};
+			name = Debug;
+		};
+		DDABF437204BD43000876D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6C5FM2FT54;
+				INFOPLIST_FILE = MPlacesAroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.patalakh.MPlacesAroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MPlacesAround;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDABF400204BD43000876D08 /* Build configuration list for PBXProject "MPlacesAround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDABF42D204BD43000876D08 /* Debug */,
+				DDABF42E204BD43000876D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDABF42F204BD43000876D08 /* Build configuration list for PBXNativeTarget "MPlacesAround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDABF430204BD43000876D08 /* Debug */,
+				DDABF431204BD43000876D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDABF432204BD43000876D08 /* Build configuration list for PBXNativeTarget "MPlacesAroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDABF433204BD43000876D08 /* Debug */,
+				DDABF434204BD43000876D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDABF435204BD43000876D08 /* Build configuration list for PBXNativeTarget "MPlacesAroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDABF436204BD43000876D08 /* Debug */,
+				DDABF437204BD43000876D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDABF3FD204BD43000876D08 /* Project object */;
+}
