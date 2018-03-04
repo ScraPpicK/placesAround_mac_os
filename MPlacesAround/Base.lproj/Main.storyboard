@@ -843,11 +843,14 @@
                                         </connections>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NJv-qk-JrX">
-                                        <rect key="frame" x="64" y="121" width="223" height="32"/>
-                                        <buttonCell key="cell" type="push" title="You can search for coordinates:" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tLB-WJ-rNE">
+                                        <rect key="frame" x="70" y="127" width="211" height="22"/>
+                                        <buttonCell key="cell" type="roundRect" title="You can search for coordinates:" bezelStyle="roundedRect" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tLB-WJ-rNE">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="system"/>
+                                            <font key="font" metaFont="cellTitle"/>
                                         </buttonCell>
+                                        <connections>
+                                            <action selector="searchForCoordinates:" target="XfG-lQ-9wD" id="pMf-xb-eGc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

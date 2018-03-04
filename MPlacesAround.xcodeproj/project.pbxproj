@@ -14,13 +14,13 @@
 		DDABF420204BD43000876D08 /* MPlacesAroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF41F204BD43000876D08 /* MPlacesAroundTests.m */; };
 		DDABF42B204BD43000876D08 /* MPlacesAroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF42A204BD43000876D08 /* MPlacesAroundUITests.m */; };
 		DDABF43E204BD85900876D08 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF43C204BD85900876D08 /* MainViewController.m */; };
-		DDABF443204BD8DE00876D08 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF442204BD8DE00876D08 /* DownloadManager.m */; };
-		DDABF446204BD8EE00876D08 /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF445204BD8EE00876D08 /* NSString_stripHtml.m */; };
-		DDABF449204BD8FB00876D08 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF447204BD8FB00876D08 /* Place.m */; };
 		DDABF44C204BD91E00876D08 /* PlacesTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF44B204BD91E00876D08 /* PlacesTableCellView.m */; };
 		DDABF44E204BD93800876D08 /* PlacesTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDABF44D204BD93800876D08 /* PlacesTableCellView.xib */; };
 		DDABF451204BDCA400876D08 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF450204BDCA400876D08 /* CustomWindow.m */; };
-		DDABF468204BE75B00876D08 /* PVAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF466204BE75B00876D08 /* PVAsyncImageView.m */; };
+		DDABF471204C1F7200876D08 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF470204C1F7200876D08 /* Place.m */; };
+		DDABF476204C1F8C00876D08 /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF473204C1F8C00876D08 /* NSString_stripHtml.m */; };
+		DDABF477204C1F8C00876D08 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF474204C1F8C00876D08 /* DownloadManager.m */; };
+		DDABF47A204C1FA500876D08 /* PVAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABF479204C1FA500876D08 /* PVAsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,19 +57,19 @@
 		DDABF42C204BD43000876D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDABF43B204BD85900876D08 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DDABF43C204BD85900876D08 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		DDABF441204BD8DE00876D08 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = ../../../PlacesAround/PlacesAround/Helper/DownloadManager.h; sourceTree = "<group>"; };
-		DDABF442204BD8DE00876D08 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = ../../../PlacesAround/PlacesAround/Helper/DownloadManager.m; sourceTree = "<group>"; };
-		DDABF444204BD8EE00876D08 /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString_stripHtml.h; path = "../../../1202238-a4df58fde4161e9507df69e85745dc53b0e8dac6/NSString_stripHtml.h"; sourceTree = "<group>"; };
-		DDABF445204BD8EE00876D08 /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString_stripHtml.m; path = "../../../1202238-a4df58fde4161e9507df69e85745dc53b0e8dac6/NSString_stripHtml.m"; sourceTree = "<group>"; };
-		DDABF447204BD8FB00876D08 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = ../../../PlacesAround/PlacesAround/Model/Place.m; sourceTree = "<group>"; };
-		DDABF448204BD8FB00876D08 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = ../../../PlacesAround/PlacesAround/Model/Place.h; sourceTree = "<group>"; };
 		DDABF44A204BD91E00876D08 /* PlacesTableCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesTableCellView.h; sourceTree = "<group>"; };
 		DDABF44B204BD91E00876D08 /* PlacesTableCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableCellView.m; sourceTree = "<group>"; };
 		DDABF44D204BD93800876D08 /* PlacesTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacesTableCellView.xib; sourceTree = "<group>"; };
 		DDABF44F204BDCA400876D08 /* CustomWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
 		DDABF450204BDCA400876D08 /* CustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
-		DDABF466204BE75B00876D08 /* PVAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVAsyncImageView.m; path = "../../../PVAsyncImageView-master/PVAsyncImageView/PVAsyncImageView.m"; sourceTree = "<group>"; };
-		DDABF467204BE75B00876D08 /* PVAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVAsyncImageView.h; path = "../../../PVAsyncImageView-master/PVAsyncImageView/PVAsyncImageView.h"; sourceTree = "<group>"; };
+		DDABF46F204C1F7200876D08 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		DDABF470204C1F7200876D08 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		DDABF472204C1F8C00876D08 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		DDABF473204C1F8C00876D08 /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_stripHtml.m; sourceTree = "<group>"; };
+		DDABF474204C1F8C00876D08 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		DDABF475204C1F8C00876D08 /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_stripHtml.h; sourceTree = "<group>"; };
+		DDABF478204C1FA500876D08 /* PVAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAsyncImageView.h; sourceTree = "<group>"; };
+		DDABF479204C1FA500876D08 /* PVAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAsyncImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,8 @@
 		DDABF438204BD80000876D08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DDABF448204BD8FB00876D08 /* Place.h */,
-				DDABF447204BD8FB00876D08 /* Place.m */,
+				DDABF46F204C1F7200876D08 /* Place.h */,
+				DDABF470204C1F7200876D08 /* Place.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,12 +186,12 @@
 		DDABF440204BD8D000876D08 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				DDABF467204BE75B00876D08 /* PVAsyncImageView.h */,
-				DDABF466204BE75B00876D08 /* PVAsyncImageView.m */,
-				DDABF444204BD8EE00876D08 /* NSString_stripHtml.h */,
-				DDABF445204BD8EE00876D08 /* NSString_stripHtml.m */,
-				DDABF441204BD8DE00876D08 /* DownloadManager.h */,
-				DDABF442204BD8DE00876D08 /* DownloadManager.m */,
+				DDABF478204C1FA500876D08 /* PVAsyncImageView.h */,
+				DDABF479204C1FA500876D08 /* PVAsyncImageView.m */,
+				DDABF472204C1F8C00876D08 /* DownloadManager.h */,
+				DDABF474204C1F8C00876D08 /* DownloadManager.m */,
+				DDABF475204C1F8C00876D08 /* NSString_stripHtml.h */,
+				DDABF473204C1F8C00876D08 /* NSString_stripHtml.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -337,12 +337,12 @@
 				DDABF415204BD43000876D08 /* main.m in Sources */,
 				DDABF43E204BD85900876D08 /* MainViewController.m in Sources */,
 				DDABF40A204BD43000876D08 /* AppDelegate.m in Sources */,
-				DDABF449204BD8FB00876D08 /* Place.m in Sources */,
-				DDABF468204BE75B00876D08 /* PVAsyncImageView.m in Sources */,
 				DDABF451204BDCA400876D08 /* CustomWindow.m in Sources */,
-				DDABF443204BD8DE00876D08 /* DownloadManager.m in Sources */,
+				DDABF47A204C1FA500876D08 /* PVAsyncImageView.m in Sources */,
+				DDABF476204C1F8C00876D08 /* NSString_stripHtml.m in Sources */,
+				DDABF471204C1F7200876D08 /* Place.m in Sources */,
 				DDABF44C204BD91E00876D08 /* PlacesTableCellView.m in Sources */,
-				DDABF446204BD8EE00876D08 /* NSString_stripHtml.m in Sources */,
+				DDABF477204C1F8C00876D08 /* DownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

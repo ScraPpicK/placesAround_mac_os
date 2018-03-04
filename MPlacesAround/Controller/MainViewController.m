@@ -96,6 +96,14 @@
     }
 }
 
+- (void)showLocationDeniedMessage
+{
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert addButtonWithTitle:@"Error"];
+    [alert setMessageText:@"To proceed we need to know your location."];
+    [alert runModal];
+}
+
 - (IBAction)searchForCoordinates:(id)sender
 {
     NSString *locationString = self.coordinatesTextField.stringValue;
